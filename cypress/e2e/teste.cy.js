@@ -1,4 +1,4 @@
-describe('Login no SauceDemo', () => {
+describe('Login no Cypress.io', () => {
     it('Deve realizar o login e apresentar os produtos', () => {
         cy.visit('https://example.cypress.io/commands/actions')
         cy.get('.action-email').type('fake@email.com')
